@@ -1,20 +1,28 @@
 //nav menu
+.header-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  .overlay {width: 525px;}
+}
 .close-btn {display: none;}
 .flexbox {
-	min-height: 95px;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	align-items: center;
+  align-items: center;
+  padding: 15px 0 10px 0;
 }
 .overlay__content {
 	display: flex;
   flex-flow: row nowrap;
+  li {}
 	li a{
-		padding: 5px 20px;
+		padding: 0px 15px;
 		color: $primary_font_color;
-		font: 600 18px $primary_font;
-		text-transform: uppercase;
+		font: 400 12px $primary_font;
+    text-transform: uppercase;
 		cursor: pointer;
 		&:hover {text-decoration: none;}
 	}

@@ -1,0 +1,16 @@
+.top-search-form {
+  input {
+    width: 217px;
+    background-color: #353535;
+    border: none;
+    border-radius: 10px;
+    padding: 0 10px;
+    font: 400 12px/32px $primary_font;
+    
+  }
+  button {
+    @extend input;
+    width: 68px;
+    background-color: #d54346;
+  }
+}
