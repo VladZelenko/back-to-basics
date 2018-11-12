@@ -1,0 +1,21 @@
+{
+  "name": "back-to-basics",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Vlad Zelenko"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/VladZelenko/back-to-basics",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "fontawesome": "^5.5.0"
+  }
+}
