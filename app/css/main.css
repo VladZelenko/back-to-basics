@@ -121,9 +121,6 @@ img {
     #open-btn-nav .line:nth-child(2) {
       margin: 3px 0; } }
 
-.header {
-  border-bottom: 1px solid #e2e2e2; }
-
 .header-top {
   display: -webkit-box;
   display: -webkit-flex;
@@ -156,6 +153,14 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 200px; }
+
+.intro {
+  width: 100%;
+  min-height: 450px;
+  background: url("../../img/850px-DenverPostArticle1.jpg") no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  border-top: 1px solid #333333; }
 
 .top-search-form input, .top-search-form button {
   width: 217px;
