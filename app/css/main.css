@@ -162,6 +162,45 @@ img {
           background-size: cover;
   border-top: 1px solid #333333; }
 
+.post-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  min-height: 165px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #333333; }
+  .post-box .post {
+    width: 295px; }
+  .post-box .title {
+    font: 400 16px "Georgia", sans-serif;
+    color: #666666;
+    margin: 50px 0 25px 0; }
+  .post-box p {
+    font: 400 14px/20px "Georgia", sans-serif;
+    color: #666666; }
+
+.post-box .post-btn {
+  display: block;
+  width: 105px;
+  margin-top: 20px;
+  background-color: #d54346;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  font: 400 13px/30px "Georgia", sans-serif;
+  color: #ffffff;
+  text-align: center; }
+
 .top-search-form input, .top-search-form button {
   width: 217px;
   background-color: #353535;

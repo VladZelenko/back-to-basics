@@ -1,0 +1,19 @@
+.post-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 165px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #333333;
+ .post {width: 295px;} 
+ .title {
+   font: 400 16px $secondary_font;
+   color: $title_color;
+   margin: 50px 0 25px 0;
+ }
+ p {
+   font: 400 14px/20px $secondary_font;
+   color: $secondary_text_color;
+ }
+}
