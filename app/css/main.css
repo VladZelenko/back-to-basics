@@ -190,6 +190,21 @@ img {
     font: 400 14px/20px "Georgia", sans-serif;
     color: #666666; }
 
+.services {
+  width: 50%; }
+
+.post-services {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+
 .post-box .post-btn {
   display: block;
   width: 105px;
